@@ -51,6 +51,7 @@ async function getBalance() {
         try {
             const balance = await provider.getBalance(contractAddress)
             console.log(ethers.utils.formatEther(balance))
+            balanceButton.innerHTML = ethers.utils.formatEther(balance)
         } catch (error) {
             console.log(error)
         }
