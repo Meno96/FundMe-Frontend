@@ -1,4 +1,8 @@
 {
-  "name": "FundMe-Frontend",
-  "packageManager": "yarn@3.2.4"
+    "name": "fund-me-frontend",
+    "version": "1.0.0",
+    "description": "",
+    "devDependencies": {
+        "http-server": "^14.1.0"
+    }
 }
