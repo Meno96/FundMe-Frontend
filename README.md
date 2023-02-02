@@ -3,7 +3,7 @@
 </h1>
 
 <br/>
-
+ 
 Frontend part of a Hardhat project that manages the funding and withdrawal from a smart contract for an hypothetical project.
 
 <hr/>
